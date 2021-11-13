@@ -27,8 +27,3 @@
     justify-content: space-between;
 }
 
-.bl{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
