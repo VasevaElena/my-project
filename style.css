@@ -1,0 +1,11 @@
+.blok-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.blok-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
