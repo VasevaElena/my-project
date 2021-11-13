@@ -9,3 +9,23 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.blok-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.blok-02{
+    display: flex;
+    flex-direction: column;
+}
+
+.blok-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.blok-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
