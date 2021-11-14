@@ -2,8 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+    border-style: solid;
+    border-top-color: chocolate;
+    border-width: 1px;
+    background-color: rgb(230, 174, 174);
 }
+
 
 .blok-01{
     display: flex;
@@ -12,23 +16,36 @@
 }
 
 h1{
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
 }
 
 .blok-2{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-style: dashed;
+    border-top-color: chocolate;
+    border-width: 1px;
+    background-color: rgb(233, 194, 179);
 }
 
 .blok-3{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-style: solid;
+    border-top-color: chocolate;
+    border-width: 1px;
+    background-color: rgb(126, 102, 57);
 }
 
 .blok-02{
     display: flex;
     flex-direction: column;
+    border-style: dashed;
+    border-top-color: chocolate;
+    border-width: 1px;
+    background-color: rgb(224, 79, 98);
+    padding: 50px 400px;
 }
