@@ -79,6 +79,7 @@ h1{
     justify-content: flex-start;
     margin-top: 30px;
     padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
 }
 
