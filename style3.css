@@ -224,7 +224,7 @@ p
     display: block;
     position: absolute;
     width: 100%;
-    height: 5px;
+    height: 2px;
     background-color: #f52525;
   }
   .menu__btn > span::before {
