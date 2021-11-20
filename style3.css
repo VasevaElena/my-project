@@ -187,3 +187,10 @@ p
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 500px) {
+    .tk2 {
+        display: none;
+    }
+}
+    
