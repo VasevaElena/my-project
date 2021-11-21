@@ -90,8 +90,7 @@
   }
 
   .p3 {
-   display: flex;
-   margin: 24px 72px 23px;
    font-size: 24px;
-  
+   text-align: center;
+   margin: 0 auto;
   }
