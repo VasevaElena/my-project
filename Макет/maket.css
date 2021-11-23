@@ -11,6 +11,8 @@
   header {
     text-shadow: 0 1px 8px rgba(0,0,0,.2);
     margin: 0 auto;
+    width: auto;
+    height: auto;
   }
   
   h1 {
@@ -30,8 +32,8 @@
       line-height: 140px;
       text-align: center;
       font-size: 20px;
-      margin-top: -2.5em; /* Отступ сверху */
-      margin-bottom: 1em; /* Отступ снизу */
+      margin-top: -2.5em; 
+      margin-bottom: 1em; 
   }
 
   .p2 {
@@ -39,8 +41,8 @@
       font-size: 15px;
       text-align: center;
       margin-top: 5px;
-      margin-top: -3.5em; /* Отступ сверху */
-      margin-bottom: 1em; /* Отступ снизу */
+      margin-top: -3.5em; 
+      margin-bottom: 1em; 
       flex-wrap: wrap;
 
   }
@@ -56,7 +58,7 @@
     width: 217px;
     height: 156px;
     left: 140px;
-    top: 345px;
+    top: 400px;
   }
 
   .img02 {
@@ -64,7 +66,7 @@
     width: 216px;
     height: 153px;
     left: 482px;
-    top: 345px;
+    top: 400px;
   }
 
   .img03 {
@@ -72,7 +74,7 @@
     width: 224px;
     height: 153px;
     left: 828px;
-    top: 345px;
+    top: 400px;
   }
 
   .img04 {
@@ -80,26 +82,38 @@
     width: 223px;
     height: 156px;
     left: 1163px;
-    top: 345px;
+    top: 400px;
+  }
+
+  .img05 {
+    position: absolute;
+    width: 223px;
+    height: 156px;
+    left: 1498px;
+    top: 400px;
   }
 
   .button {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      margin-top: 200px;
+      margin-top: 350px;
   }
 
   .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     height: 105px;
-    width: 1431px;
-    left: -598px;
-    top: 276px;
+    width: 1889px;
  }
 
  .text-end {
+    display: flex;
+    flex-direction: row;
+     justify-content: flex-end;
      color: #5f201b;
-     font-size: 35px;
+     font-size: 40px;
      margin-top: 1.5em;
  }
 
@@ -107,6 +121,8 @@
    display: flex;
    flex-direction: row;
    justify-content: flex-end;
+   margin-top: 30px;
+   margin-right: 251px;
  }
 
  .mg1 {
@@ -114,6 +130,59 @@
   height: 111px;
  }
 
+ .tex01 {
+    position: absolute;
+    width: 217px;
+    height: 156px;
+    left: 140px;
+    top: 567px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+.tex02 {
+  position: absolute;
+  width: 216px;
+  height: 153px;
+  left: 482px;
+  top: 567px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+.tex03 {
+  position: absolute;
+    width: 224px;
+    height: 153px;
+    left: 828px;
+    top: 567px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tex04 {
+  position: absolute;
+  width: 223px;
+  height: 156px;
+  left: 1163px;
+  top: 567px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tex05 {
+  position: absolute;
+  width: 223px;
+  height: 156px;
+  left: 1498px;
+  top: 567px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mg1{
+  width: 124px;
+  height: 111px;
+}
  .mg2 {
   width: 124px;
   height: 111px;
@@ -130,3 +199,102 @@
   margin-top: 1.5em;
   font-family: 'Times New Roman', Times, serif;
  }
+
+
+ .img1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.img001 {
+position: absolute;
+width: 217px;
+height: 156px;
+left: 200px;
+top: 314px;
+}
+
+.img002 {
+position: absolute;
+width: 216px;
+height: 153px;
+left: 530px;
+top: 314px;
+}
+
+.img003 {
+position: absolute;
+width: 224px;
+height: 153px;
+left: 885px;
+top: 314px;
+}
+
+.img004 {
+position: absolute;
+width: 223px;
+height: 156px;
+left: 1219px;
+top: 314px;
+}
+
+.img005 {
+position: absolute;
+width: 223px;
+height: 156px;
+left: 1560px;
+top: 314px;
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .img1{
+  display: none;
+  }
+.img {
+  display: none;
+}
+.button {
+  margin-top: 100px;
+}
+.p1{
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 35px;
+}
+.p2 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+p {
+  font-size: 10px;
+  }
+.mg1 {
+  width: 50px;
+  height: 51px;
+}
+.mg2{
+  width: 50px;
+  height: 51px;
+}
+.mg3 {
+  width: 50px;
+  height: 51px;
+}
+.display-1 {
+  font-size: calc(5.625rem + 4.5vw)
+}
+.display-2 {
+  font-size: calc(7.575rem + 3.9vw);
+}
+
+.mg {
+  display: inline-block;
+  margin: 0 auto
+}
+}
+
