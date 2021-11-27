@@ -1,10 +1,10 @@
 //1 задача
-var num = 3;
+let num = 3;
 alert(num);
 
 //2 задача
-var a = 10;
-var b = 2;
+let a = 10;
+let b = 2;
 alert(+a + b);
 alert(a-b);
 alert(a*b);
@@ -29,3 +29,7 @@ var c = a - b;
 var d = 7;
 var result = +c + d;
 alert(result);
+
+//6
+var str = "Привет, Мир!";
+alert(str);
