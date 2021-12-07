@@ -247,6 +247,21 @@ left: 1560px;
 top: 314px;
 }
 
+.modal
+{
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 50vh;
+}
+
+.showed
+{
+    display: block;
+}
+
 @media screen and (max-width: 375px) {
   header {
     width: 90%;
@@ -297,4 +312,6 @@ p {
   margin: 0 auto
 }
 }
+
+
 
