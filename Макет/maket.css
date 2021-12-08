@@ -247,14 +247,21 @@ left: 1560px;
 top: 314px;
 }
 
-.modal
+.modals
 {
     display: none;
     width: 500px;
     height: 500px;
-    background-color: white;
+    background-color: rgb(236, 191, 191);
     position: absolute;
-    left: 50vh;
+    left: 70vh;
+    top:250px;
+}
+
+.maps {
+  width: 300px;
+  height: 250px;
+  margin-left: 100px;
 }
 
 .showed

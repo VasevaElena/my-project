@@ -1,6 +1,6 @@
 const btn = document.querySelector('.btn');
 const close_btn = document.querySelector('.close');
-const modal = document.querySelector('.modal');
+const modal = document.querySelector('.modals');
 
 btn.addEventListener('click', function (event) {
     modal.classList.add('showed');
